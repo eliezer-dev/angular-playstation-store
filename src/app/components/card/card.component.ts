@@ -15,10 +15,15 @@ export class CardComponent implements OnInit {
 	gameType:string ="XPTO | PS4"
 	@Input()
 	gamePrice:string = "R$ 399,90"
+	@Input()
+	gameScore:string = ''
 
-  constructor() { }
+  constructor() {
+	 }
 
   ngOnInit(): void {
+
   }
+
 
 }
